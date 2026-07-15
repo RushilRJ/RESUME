@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Stylized portrait">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c14"/>
+      <stop offset="45%" stop-color="#12101c"/>
+      <stop offset="100%" stop-color="#1a1028"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="30%" y1="10%" x2="70%" y2="90%">
+      <stop offset="0%" stop-color="#2a2438"/>
+      <stop offset="100%" stop-color="#1a1525"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#c4b5fd" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="160" r="140" fill="url(#orb)" filter="url(#soft)"/>
+  <circle cx="280" cy="90" r="60" fill="#7c3aed" opacity="0.12" filter="url(#soft)"/>
+  <circle cx="90" cy="220" r="40" fill="#a78bfa" opacity="0.08" filter="url(#soft)"/>
+
+  <!-- Grid / tech texture -->
+  <g opacity="0.12" stroke="#a78bfa" stroke-width="0.6">
+    <path d="M0 100 H400 M0 150 H400 M0 200 H400 M0 250 H400 M0 300 H400 M0 350 H400"/>
+    <path d="M50 0 V500 M100 0 V500 M150 0 V500 M200 0 V500 M250 0 V500 M300 0 V500 M350 0 V500"/>
+  </g>
+
+  <!-- Abstract geometric portrait silhouette -->
+  <!-- Shoulders / torso -->
+  <path d="M70 500 C90 380 130 340 200 340 C270 340 310 380 330 500 Z"
+        fill="url(#skin)" stroke="#5b21b6" stroke-width="1.2" opacity="0.95"/>
+  <path d="M95 500 C110 400 145 365 200 365 C255 365 290 400 305 500"
+        fill="none" stroke="#a78bfa" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- Neck -->
+  <path d="M168 300 C175 330 185 345 200 348 C215 345 225 330 232 300"
+        fill="#1e1830" stroke="#6d28d9" stroke-width="0.8"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="210" rx="78" ry="95" fill="url(#skin)" stroke="#7c3aed" stroke-width="1.5"/>
+  <ellipse cx="200" cy="210" rx="78" ry="95" fill="url(#glow)" opacity="0.25"/>
+
+  <!-- Hair mass (abstract) -->
+  <path d="M122 200 C118 140 145 95 200 90 C255 95 282 140 278 200
+           C270 155 245 120 200 118 C155 120 130 155 122 200 Z"
+        fill="#0a0a10" stroke="#4c1d95" stroke-width="1"/>
+  <path d="M130 175 C140 120 170 100 200 98 C230 100 260 120 270 175"
+        fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.4"/>
+
+  <!-- Face planes (minimal geometric) -->
+  <path d="M200 175 L230 240 L200 255 L170 240 Z" fill="#2a2240" opacity="0.55"/>
+  <path d="M200 175 L170 240 L200 255" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.35"/>
+  <path d="M200 175 L230 240 L200 255" fill="none" stroke="#c4b5fd" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Eyes (glow lines) -->
+  <line x1="165" y1="205" x2="185" y2="205" stroke="#c4b5fd" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <line x1="215" y1="205" x2="235" y2="205" stroke="#c4b5fd" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="175" cy="205" r="3" fill="#ede9fe" opacity="0.9"/>
+  <circle cx="225" cy="205" r="3" fill="#ede9fe" opacity="0.9"/>
+
+  <!-- Mouth subtle -->
+  <path d="M180 248 Q200 260 220 248" fill="none" stroke="#6d28d9" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Accent rings -->
+  <circle cx="200" cy="210" r="105" fill="none" stroke="url(#line)" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="200" cy="210" r="120" fill="none" stroke="#7c3aed" stroke-width="0.6" opacity="0.25" stroke-dasharray="4 8"/>
+
+  <!-- Floating particles -->
+  <circle cx="70" cy="120" r="2" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="320" cy="160" r="1.5" fill="#c4b5fd" opacity="0.7"/>
+  <circle cx="340" cy="280" r="2.5" fill="#8b5cf6" opacity="0.4"/>
+  <circle cx="55" cy="300" r="1.5" fill="#a78bfa" opacity="0.5"/>
+  <circle cx="310" cy="380" r="2" fill="#7c3aed" opacity="0.45"/>
+
+  <!-- Monogram -->
+  <text x="200" y="470" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif"
+        font-size="14" font-weight="700" fill="#a78bfa" letter-spacing="6" opacity="0.55">R</text>
+</svg>

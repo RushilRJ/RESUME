@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Rushil Sharma — B.Tech CSE student, researcher, and builder. Portfolio & resume." />
+  <meta name="theme-color" content="#0a0a0f" />
+  <title>Rushil Sharma · Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo" id="nav-brand">Rushil<span>.</span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO / ABOUT ============ -->
+    <section class="hero" id="about" aria-label="About">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker">Portfolio · Resume</p>
+          <h1>Hi, I'm <span class="accent" id="hero-name">Rushil</span></h1>
+          <p class="hero-tagline" id="hero-tagline"></p>
+          <div id="hero-about"></div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See projects</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <div id="hero-meta"></div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="false">
+          <div class="portrait-frame">
+            <div class="portrait-glow"></div>
+            <!-- Cool stylized graphic (black + slight purple). Replace assets/portrait.svg with your photo if you want. -->
+            <img src="assets/portrait.svg" alt="Stylized portrait of Rushil" width="380" height="475" />
+            <div class="portrait-badge" id="portrait-badge"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Background</p>
+          <h2 class="section-title">Education</h2>
+        </header>
+        <div id="education-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Toolkit</p>
+          <h2 class="section-title">Skills</h2>
+        </header>
+        <div id="skills-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section class="section" id="research">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Publications</p>
+          <h2 class="section-title">Research</h2>
+        </header>
+        <div id="research-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Work</p>
+          <h2 class="section-title">Internships &amp; Training</h2>
+        </header>
+        <div id="experience-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ LEADERSHIP ============ -->
+    <section class="section" id="leadership">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Beyond code</p>
+          <h2 class="section-title">Leadership &amp; Activities</h2>
+        </header>
+        <div id="leadership-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Milestones</p>
+          <h2 class="section-title">Achievements</h2>
+        </header>
+        <div id="achievements-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-label">Selected work</p>
+          <h2 class="section-title">Projects</h2>
+        </header>
+        <div id="projects-list"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <p class="section-label">Say hello</p>
+        <h2 class="section-title">Let's connect</h2>
+        <p>Open to research collabs, internships, hackathons, and interesting problems.</p>
+        <div id="contact-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="footer-year"></span> <span id="footer-name">Rushil Sharma</span> · Built for GitHub Pages
+    </div>
+  </footer>
+
+  <!-- Content first, then renderer -->
+  <script src="data/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
