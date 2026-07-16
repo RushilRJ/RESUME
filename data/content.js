@@ -51,7 +51,7 @@ const SITE = {
     },
     {
       category : "KEYWORDS",
-      items:["Fuzzy Logic", "Fuzzy Systems", "Chess"]
+      items:["Fuzzy Logic", "Fuzzy Systems", "Chess","Cyber-Physical Systems"]
     }
     
   ],
@@ -137,7 +137,7 @@ const SITE = {
         "Peer-reviewed acceptance and oral presentation at IEEE WCCI 2026 (Fuzzy Systems Track).",
         "Presented in person in Maastricht, Netherlands (June 2026)."
       ],
-      tech: ["Fuzzy Logic", "Cyber-Physical Systems", "Temporal Modeling", "Research Writing"],
+      tech: ["Fuzzy Logic", "Cyber-Physical Systems", , "Research"],
       links: []
     },
     {
