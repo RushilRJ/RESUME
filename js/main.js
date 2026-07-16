@@ -296,7 +296,7 @@
   /* ---------- Document title ---------- */
   function setTitles() {
     const brand = document.getElementById("nav-brand");
-    if (brand) brand.innerHTML = SITE.name + "<span>.</span>";
+    if (brand) brand.innerHTML = "Hellooooooooooooooooooooooooooooooo";
     const year = document.getElementById("footer-year");
     if (year) year.textContent = String(new Date().getFullYear());
     const footerName = document.getElementById("footer-name");

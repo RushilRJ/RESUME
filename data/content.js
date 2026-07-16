@@ -10,18 +10,19 @@ const SITE = {
   // ---- Identity ----
   name: "Rushil",
   fullName: "Rushil Sharma",
-  tagline: "B.Tech CSE · Builder · Researcher · Chess Arbiter",
+  tagline: "B.Tech CSE · Student · Researcher · Chess Arbiter",
   location: "Dwarka, New Delhi",
   email: "rushilsharma@students.sau.ac.in",
-  phone: "+91 78388 66101",
+  phone: "+91 7838866101",
   linkedin: "https://www.linkedin.com/in/rushil-sharma-3b31b5318",
   github: "https://github.com/RushilRJ",
 
-  // Short bio shown in the About / Hero section
+  
   about: [
-    "I'm a third-year Computer Science and Engineering student at South Asian University, New Delhi. I care about building systems that sit at the edge of theory and real-world impact — from cyber-physical safety to machine learning and full-stack software.",
-    "I've presented research at IEEE WCCI 2026 in Maastricht, interned at IIT Delhi on circular municipal waste solutions, and compete in hackathons and national-level chess officiating. Outside code, I design, edit video, and help run the CSI SAU chapter's finances."
-  ],
+    "Hi, I’m Rushil, a B.Tech 3rd Year Computer Science student at South Asian University, New Delhi." 
+    ,"Call me Explorer, Problem Solver."
+    ,"All I believe is: learn from every instance of life. When a problem comes, I make sure it is never a problem again."
+    ,"I have a chess mindset, it means I know patience, and I can calmly navigate through pressure and complex stuff as if I was born to do so."],
 
   // ---- Education (no marks) ----
   education: [
@@ -31,18 +32,7 @@ const SITE = {
       place: "South Asian University, New Delhi",
       period: "2024 – 2028"
     },
-    {
-      degree: "Class XII (CBSE)",
-      detail: "Senior Secondary",
-      place: "DAV Public School, Dwarka, New Delhi",
-      period: ""
-    },
-    {
-      degree: "Class X (CBSE)",
-      detail: "Secondary",
-      place: "DAV Public School, Dwarka, New Delhi",
-      period: ""
-    }
+    
   ],
 
   // ---- Skills (grouped for easy editing) ----
@@ -60,9 +50,10 @@ const SITE = {
       items: ["Arduino IDE", "Canva", "GIMP", "Video Editing"]
     },
     {
-      category: "Strengths",
-      items: ["Problem Solving", "Research Writing", "System Design"]
+      category : "KEYWORDS",
+      items:["Fuzzy Logic", "Fuzzy Systems", "Chess"]
     }
+    
   ],
 
   // ---- Research ----
@@ -78,7 +69,7 @@ const SITE = {
   // ---- Experience / Internships ----
   experience: [
     {
-      role: "Research Intern",
+      role: "Summer Intern",
       org: "IIT Delhi — CRDT",
       supervisor: "Prof. Vivek Kumar",
       period: "June – July 2026 (Ongoing)",
@@ -109,13 +100,7 @@ const SITE = {
 
   // ---- Leadership & Extracurricular ----
   leadership: [
-    {
-      title: "Core Finance Team Member",
-      org: "Computer Society of India (CSI) — SAU Chapter",
-      points: [
-        "Managed budgeting, financial planning, and resource allocation for technical events and society activities."
-      ]
-    },
+    
     {
       title: "Senior National Arbiter (SNA) — Chess",
       org: "All India Chess Federation",
@@ -131,8 +116,7 @@ const SITE = {
     "Top 50 — National Medical Hackathon, VIT Bhopal (university representative)",
     "Senior National Arbiter (SNA), All India Chess Federation",
     "State-level chess tournament wins",
-    "Communication & Graphic Design Course, South Asian University"
-  ],
+    ],
 
   // ---- Projects (cards on homepage + detail pages) ----
   // id must match the folder/file name under /projects/
