@@ -126,7 +126,7 @@ const SITE = {
       title: "Temporal Fuzzy Safety Margin Degradation",
       short: "Early-warning model for cyber-physical systems using temporal fuzzy logic — presented at IEEE WCCI 2026.",
       tags: ["Research", "Fuzzy Systems", "CPS"],
-      thumbnail: "assets/projects/fuzzy-safety-margin.svg",
+      thumbnail: "assets/projects/fuzzy-safety-margin.jpeg",
       page: "projects/fuzzy-safety-margin.html",
       // Detail page content
       overview:
