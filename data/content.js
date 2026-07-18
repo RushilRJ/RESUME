@@ -179,7 +179,7 @@ const SITE = {
       title: "Medical Hackathon Model",
       short: "Innovative medical model developed at VIT Bhopal; team reached Top 50 nationally.",
       tags: ["Hackathon", "Healthcare", "Innovation"],
-      thumbnail: "assets/projects/medical-hackathon.svg",
+      thumbnail: "assets/projects/medical-hackathon.jpg",
       page: "projects/medical-hackathon.html",
       overview:
         "Represented South Asian University at a national medical-focused hackathon hosted at VIT Bhopal. The team designed an innovative medical model and placed in the Top 50.",
