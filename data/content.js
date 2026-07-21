@@ -148,7 +148,7 @@ const SITE = {
       thumbnail: "assets/projects/nids.svg",
       page: "projects/nids.html",
       overview:
-        "A network-based intrusion detection system that combines classical ensemble methods with fuzzy scoring to flag anomalous traffic patterns more robustly than a single classifier.",
+        "ARIA – Adaptive Response IDS with Anomaly Awareness is a fuzzy-logic-enhanced intrusion detection system designed to overcome the limitations of traditional binary IDS. Instead of producing only “Normal” or “Attack” alerts, ARIA generates graduated threat levels (Low, Medium, High, Critical) and maps them to concrete analyst actions. The goal is to reduce alert fatigue in Security Operations Centers (SOCs) and enable faster, more proportionate incident response.",
       highlights: [
         "Built on the NSL-KDD benchmark for network intrusion detection.",
         "Combined Isolation Forest and Random Forest with a fuzzy scoring layer.",
