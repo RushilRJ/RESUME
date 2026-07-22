@@ -42,7 +42,7 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     const brand = document.getElementById("nav-brand");
-    if (brand) brand.innerHTML = SITE.name + "<span>.</span>";
+    if (brand) brand.innerHTML = "MY PROJECTS";
 
     const id = getProjectId();
     const project = findProject(id);
